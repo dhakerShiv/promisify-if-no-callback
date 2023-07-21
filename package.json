@@ -1,0 +1,21 @@
+{
+  "name": "promisify-if-no-callback",
+  "version": "1.0.1",
+  "description": "It allows use of promise or async await while giving support for already existing old code which uses callback",
+  "main": "index.js",
+  "repository": "git@github.com:dhakerShiv/promisify-if-no-callback.git",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js"
+  },
+  "keywords": [
+    "async",
+    "await",
+    "promise",
+    "callback"
+  ],
+  "author": "dhakershiv",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7"
+  }
+}
